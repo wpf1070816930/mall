@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
 public class AdminUserDetails implements UserDetails {
     //后台用户
     private UmsAdmin umsAdmin;
+
     //拥有资源列表
     private List<UmsResource> resourceList;
     public AdminUserDetails(UmsAdmin umsAdmin,List<UmsResource> resourceList) {
